@@ -24,6 +24,10 @@ python gen_pano_dataset.py
 
 Run the following command to construct the lmdb database for training and testing.
 
+```sh
+python prepare_data.py configs/dataset/Matterport3d.yaml 
+```
+
 ## 3. Pre-trained Weights
 
 Get the pretrained weights from "https://drive.google.com/file/d/1pNZbIyBcSrfQZv3Hr_whzkGOAp72S-fY/view?usp=drive_link"
